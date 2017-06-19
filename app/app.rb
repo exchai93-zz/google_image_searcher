@@ -1,3 +1,4 @@
+ENV['RACK_ENV']||= 'development'
 require 'sinatra/base'
 
 class Search < Sinatra::Base
@@ -6,4 +7,4 @@ class Search < Sinatra::Base
     erb :index
   end
 
-end 
+end
