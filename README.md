@@ -6,6 +6,22 @@ This is an application that searches Google images based on the user selecting a
 
 ## Requirements met
 
+- The user must be able to select the following colours: Red, Pink, Orange, Yellow, Green, Blue and Purple
+
+- The search must use a random one of the following search terms and the selected colour as a filter: man, mountain, state, ocean, country, building, cat, airline, wealth,  happiness, pride, fear, religion, bird, book, phone, rice, snow, water.  
+
+- The colours must be presented as squares for the user to select
+
+- The top 5 search result images returned need to be displayed
+
+- The top search result needs to be able to be clicked by the user & will take the user to the image’s url  
+
+- Show the list of previous searches in a time sorted list with most recent at the top  
+
+- Show the Date, time, Noun, colour and http response ms displayed for previous  
+
+- Enable re-running previous searches  
+
 ## Technologies
 - Ruby v.2.4.0
 - Sinatra
